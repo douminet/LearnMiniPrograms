@@ -3,5 +3,29 @@
     "pages/index/index",
     "pages/info/info"
   ],
-  "sitemapLocation": "sitemap.json"
+  
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序学习",
+    "backgroundColor": "#00BFFF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00BFFF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "sources/icon/home.png",
+      "selectedIconPath": "sources/icon/home_s.png"
+    },{
+      "pagePath": "pages/info/info",
+      "text": "分类",
+      "iconPath": "sources/icon/cata.png",
+      "selectedIconPath": "sources/icon/cata_s.png"
+    }]
+  }
 }

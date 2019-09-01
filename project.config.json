@@ -12,7 +12,7 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.7",
+	"libVersion": "2.8.1",
 	"appid": "wx863052676f6e34cb",
 	"projectname": "SearchInJinan",
 	"debugOptions": {
