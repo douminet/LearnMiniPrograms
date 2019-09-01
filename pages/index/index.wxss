@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+.helloText{
+  font-size: 20px;
+  color: red;
+}
+.heButton{
+  width:30%;
+  
+}
