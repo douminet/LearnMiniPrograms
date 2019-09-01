@@ -1,3 +1,10 @@
 <!--pages/index/index.wxml-->
-<text class="helloText">Search In Jinan</text>
-<button class="heButton" onclick="test()">按钮</button>
+<!--1.数据绑定-->
+<view>标题：{{title}}</view>
+<view>数字：{{num}}</view>
+<!--2.列表展示-->
+<view wx:for="{{students}}">姓名：{{item.name}},年龄：{{item.age}}</view>
+<!--3.事件监听-->
+<view>动态数字：{{c_num}}</view>
+<button class="smallButton" bindtap="addCnum">+</button>
+<button class="smallButton" bindtap="deCnum">-</button>

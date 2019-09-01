@@ -3,7 +3,7 @@
   font-size: 20px;
   color: red;
 }
-.heButton{
+.smallButton{
   width:30%;
-  
+  align-self: left;
 }
